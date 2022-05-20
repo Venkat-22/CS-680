@@ -29,17 +29,16 @@
 		<javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no">
 			<classpath refid="classpath"/>
 			<include name="edu/umb/cs680/hw04/*.java"/>
-			
+			<!-- include name="edu/umb/cs680/hw04/*.java"/-->
 		</javac>
 		<javac srcdir="${test.src}" destdir="${test.bin}" includeAntRuntime="no"> 
 			<classpath refid="classpath"/>
 			<include name="edu/umb/cs680/hw04/*.java"/>
-			
+			<!-- include name="edu/umb/cs680/hw04/*Test.java"/-->
 		</javac>
 	</target>
 
 	<target name="test" depends="compile">
-		
 		<junitlauncher haltOnFailure="true" printSummary="true">		
 			<classpath refid="classpath" />
 			<testclasses outputdir="test">
@@ -47,18 +46,11 @@
 					<include name="edu/umb/cs680/hw04/*Test.class"/>
 				</fileset>
 				<listener type="legacy-plain" sendSysOut="true"/>
-				<!--listener type="legacy-brief" sendSysOut="true"/-->
 	        </testclasses>
 		</junitlauncher>
 	</target>
 	
-	<target name="run" depends="test">
-		<java classname="edu.umb.cs680.hw04.Car"
-				classpathref="classpath"  
-				fork="true"/>
-	</target>
-	
-	<target name="clean" depends="run">
+	<target name="clean" depends="test">
 		<delete includeemptydirs="true">
 			<fileset dir="${bin}/edu/umb/cs680/hw04" includes="**/*"/>
 			<fileset dir="${test.bin}/edu/umb/cs680/hw04" includes="**/*"/>
