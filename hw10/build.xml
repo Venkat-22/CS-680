@@ -36,7 +36,6 @@
 			
 		</javac>
 	</target>
-
 	<target name="test" depends="compile">
 	
 		<junitlauncher haltOnFailure="true" printSummary="true">		
