@@ -1,5 +1,4 @@
 package edu.umb.cs680.hw11;
-//change car names
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.ArrayList;
