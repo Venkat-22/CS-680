@@ -1,0 +1,7 @@
+Testcase: edu.umb.cs680.hw12.ApfsFileTest
+Test: verifyFileA() took 15 milli sec(s)
+Test: verifyFileX() took 0 milli sec(s)
+Test: isLinkTestingWithA() took 0 milli sec(s)
+Test: isDirectoyTestingWithA() took 0 milli sec(s)
+Test: isFileTestingWithA() took 0 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 15 milli sec(s)
