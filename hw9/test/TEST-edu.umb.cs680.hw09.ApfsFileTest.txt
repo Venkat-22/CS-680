@@ -1,0 +1,7 @@
+Testcase: edu.umb.cs680.hw09.ApfsFileTest
+Test: verifyAisFile() took 0 milli sec(s)
+Test: verifyAisLink() took 0 milli sec(s)
+Test: verifyAIsDirectory() took 0 milli sec(s)
+Test: verifyFileEqualsA() took 0 milli sec(s)
+Test: verifyFileEqualsX() took 0 milli sec(s)
+Tests run: 5, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 0 milli sec(s)
