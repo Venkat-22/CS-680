@@ -1,0 +1,10 @@
+Testcase: edu.umb.cs680.hw07.DirectoryTest
+Test: getSubDirectoriesHome() took 18 milli sec(s)
+Test: isFileRoot() took 2 milli sec(s)
+Test: isDirectoyRoot() took 2 milli sec(s)
+Test: isLinkRoot() took 2 milli sec(s)
+Test: appendChildrenHome() took 1 milli sec(s)
+Test: appendChildrenRoot() took 1 milli sec(s)
+Test: countChildrenHome() took 1 milli sec(s)
+Test: countChildrenRoot() took 2 milli sec(s)
+Tests run: 8, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 63 milli sec(s)
